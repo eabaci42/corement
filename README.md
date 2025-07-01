@@ -1,0 +1,2 @@
+# corement
+Wordpress Yorum Çekirdeği
