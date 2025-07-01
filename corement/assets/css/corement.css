@@ -1,0 +1,107 @@
+/* Corement Yorum Sistemi Temel CSS */
+:root {
+  --corement-bg: #fff;
+  --corement-text: #222;
+  --corement-border: #e0e0e0;
+  --corement-accent: #0073aa;
+}
+.corement-dark {
+  --corement-bg: #181a1b;
+  --corement-text: #eee;
+  --corement-border: #333;
+  --corement-accent: #4fc3f7;
+}
+.corement-light {
+  --corement-bg: #fff;
+  --corement-text: #222;
+  --corement-border: #e0e0e0;
+  --corement-accent: #0073aa;
+}
+.corement-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: var(--corement-bg);
+  color: var(--corement-text);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 1.5rem;
+  border: 1px solid var(--corement-border);
+  transition: background 0.3s, color 0.3s;
+}
+.corement-comment-list {
+  margin-top: 2rem;
+}
+.corement-comment {
+  background: rgba(0,0,0,0.02);
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--corement-border);
+}
+.corement-dark .corement-comment {
+  background: rgba(255,255,255,0.03);
+}
+.corement-content {
+  margin: 0.5rem 0 1rem 0;
+  word-break: break-word;
+}
+.corement-media img {
+  display: block;
+  margin-top: 0.5rem;
+  border-radius: 6px;
+  max-width: 200px;
+  max-height: 200px;
+}
+.corement-vote-emoji {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.corement-emoji {
+  cursor: pointer;
+  font-size: 1.2em;
+  user-select: none;
+}
+.corement-vote button {
+  background: none;
+  border: none;
+  color: var(--corement-accent);
+  font-size: 1.1em;
+  cursor: pointer;
+  margin: 0 2px;
+}
+.corement-reply-btn {
+  background: var(--corement-accent);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 2px 10px;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+.corement-reply-form {
+  margin-top: 0.5rem;
+  background: var(--corement-bg);
+  border: 1px solid var(--corement-border);
+  border-radius: 6px;
+  padding: 0.5rem;
+}
+@media (max-width: 600px) {
+  .corement-container {
+    padding: 0.5rem;
+  }
+  .corement-comment {
+    padding: 0.5rem;
+  }
+  .corement-media img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+}
+/* Madara teması için küçük düzeltme */
+.madara .corement-container {
+  box-shadow: none;
+  border: 2px solid var(--corement-accent);
+}
+/* Diğer stiller buraya eklenecek */

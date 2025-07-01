@@ -1,0 +1,8 @@
+msgid "Corement"
+msgstr "Corement"
+
+msgid "Core Comment System - Çekirdek Yorum Sistemi"
+msgstr "Core Comment System - Çekirdek Yorum Sistemi"
+
+msgid "Henüz yorum yok. İlk yorumu siz yapın!"
+msgstr "Henüz yorum yok. İlk yorumu siz yapın!"
